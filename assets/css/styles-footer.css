@@ -1,0 +1,26 @@
+/*----------------------
+-----Footer Styles------
+------------------------*/
+
+#main-footer {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.social-links {
+    list-style:none;
+    /*list-style-position: inside;*/
+}
+
+.social-links li{
+    display: inline-block;
+    margin-left: 10px;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.social-links .fa{
+    font-size: 24px;
+}
+

@@ -1,0 +1,618 @@
+
+/*-------------------------
+---- Portfolio Styles -----
+--------------------------*/
+
+
+/*#portfolio{*/
+    /*background-color: #e5e5e5;*/
+/*}*/
+
+/* Portfolio List */
+
+.portfolio-container {
+    min-width:100%;
+}
+
+.portfolio-frame{
+    padding: 0;
+}
+
+.circle {
+    position: relative;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    /*margin: 10px;*/
+    transition: all .3s ease-in-out;
+    opacity: 1;
+}
+
+#circle-1 {
+    background: url(../images/intro_uiux.png);
+    background-size:cover;
+    background-color: #87bd46;
+}
+
+#circle-2 {
+    background: url(../images/intro_app.png);
+    background-color: #2f81c4;
+    background-size: cover;
+}
+
+#circle-3 {
+    background: url(../images/intro_onlinegame_1.png);
+    background-size:cover;
+    background-color: #87bd46;
+}
+
+#circle-4 {
+    background: url(../images/intro_corporate_1.png) no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    background-color: #2f81c4;
+}
+
+.circle:hover {
+    border-radius:0;
+    width: 100%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.portfolio-number {
+    position: absolute;
+    opacity: 1;
+    top: 45px;
+    right: 10px;
+    font-weight: 100;
+    font-size: 100px;
+    color: #fff;
+}
+
+.circle:hover .portfolio-number {
+    padding-top: 0;
+    opacity: 0;
+}
+
+.portfolio-text {
+    color: #fff;
+    opacity: 0;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 0;
+    /*transition: all .3s ease-in-out;*/
+}
+
+.circle:hover .portfolio-text {
+    padding-top: 80px;
+    opacity: 1;
+}
+
+/* See Details Button */
+
+.seedetails-container {
+    display: table;
+    opacity: 0;
+    padding-left: 40%;
+}
+
+.seedetails-container a {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    height: 50px;
+    width: 80px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing:0.02em;
+    color: white;
+    background-color: #4E5961;
+    transition: 0.3s;
+}
+
+.seedetails-container a:hover {
+    background-color: #c2ed71;
+    text-decoration: none;
+}
+
+.circle:hover .seedetails-container {
+    opacity: 1;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+/* See more works button under recent portfolio list */
+
+/*.seemore-div {*/
+    /*min-width: 100%;*/
+/*}*/
+
+/*#seemore-container {*/
+    /*display: table;*/
+    /*margin-top: 20px;*/
+/*}*/
+
+/*#seemore-container a {*/
+    /*display: table-cell;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    /*!*padding-left: 20px;*!*/
+    /*height: 50px;*/
+    /*width: 130px;*/
+    /*border-radius: 25px 0 0 25px;*/
+    /*text-decoration: none;*/
+    /*font-size: 14px;*/
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    /*font-weight: 300;*/
+    /*letter-spacing:0.02em;*/
+    /*color: #ffffff;*/
+    /*background-color: #969696;*/
+    /*transition: 0.3s;*/
+/*}*/
+
+/*#seemore-container a:hover {*/
+    /*text-decoration: none;*/
+    /*background-color: #c2ed71;*/
+    /*transition: 0.3s;*/
+/*}*/
+
+
+
+
+/********** Works **********/
+
+
+.work-word-frame-outer,
+.work-word-frame-inner,
+.work-moble-frame-outer,
+.work-mobile-frame-inner {
+    border: 3px solid #fff;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.work-word-frame-outer{
+    position: relative;
+    padding: 20px;
+}
+
+.work-word-frame-inner{
+    min-height: 250px;
+    position: relative;
+    padding: 10px;
+    border-radius: 0;
+    background-color: #00f2f4;
+}
+
+#work-word-lets{
+    position: absolute;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.work-word-frame-title{
+    position: absolute;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-top: 20px;
+    /*display: table-cell;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    /*white-space: pre-line;*/
+    /*line-break: loose;*/
+    /*hyphens: auto;*/
+}
+
+.work-word-pic-uiux{
+    background : url(../images/work-whatido-uiux.png) no-repeat;
+    background-position: center center;
+    background-size: 170%;
+}
+
+.work-word-pic-app{
+    background : url(../images/work-whatido-app-1.png) no-repeat;
+    background-position: right center;
+    background-size: 150%;
+}
+
+.work-word-pic-navi{
+    background : url(../images/work-whatido-navi-1.png) no-repeat;
+    background-position: center center;
+    background-size: 150%;
+}
+
+.work-word-pic-branding{
+    background : url(../images/work-whatido-logo-3.png) no-repeat;
+    background-position: center -40px;
+    background-size: 450%;
+}
+
+.work-word-pic-printed{
+    background : url(../images/work-whatido-printed.png) no-repeat;
+    background-position: left center;
+    background-size: 120%;
+}
+
+.work-word-pic-display{
+    background : url(../images/work-whatido-display.png) no-repeat;
+    background-position: center center;
+    background-size: 200%;
+}
+
+
+.work-div img{
+    position:relative;
+    display: inline;
+    top: 70px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    -webkit-animation: work-icon-ani 2s ease-out infinite;
+    animation: work-icon-ani 2s ease-out infinite;
+}
+
+.work-div img:hover, .work-div img:focus{
+    animation: none;
+    opacity: 0.5;
+}
+
+@-webkit-keyframes work-icon-ani {
+    /*0% 		{ bottom: 0; }*/
+    /*50% 	{ bottom: 1px; }*/
+    /*100% 	{ bottom: 0; }*/
+    0% { transform: scale(1) rotate(0deg); }
+    25% { transform: scale(1.1) rotate(7deg); }
+    50% { transform: scale(1) rotate(0deg); }
+    75% { transform: scale(1.1) rotate(-7deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+@keyframes work-icon-ani {
+    /*0% 		{ bottom: 0; }*/
+    /*50% 	{ bottom: 1px; }*/
+    /*100% 	{ bottom: 0; }*/
+    0% { transform: scale(1) rotate(0deg); }
+    25% { transform: scale(1.1) rotate(7deg); }
+    50% { transform: scale(1) rotate(0deg); }
+    75% { transform: scale(1.1) rotate(-7deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+
+/*background: url(../images/work-screen-bg-bw.png) no-repeat ;*/
+/*background-position: center center;*/
+/*background-size: contain;*/
+
+
+/********* Skills *********/
+
+
+.skills-container {
+    width: 100%;
+}
+
+
+.skills-word-frame-top,
+.skills-word-frame-middle,
+.skills-word-frame-bottom,
+.skills-word-frame-stand,
+.circle-switch{
+    width: 100%;
+    display: block;
+    border: 3px solid #dfdfdf;
+    line-height: 60px;
+}
+
+.skills-word-frame-top{
+    padding: 0;
+    height: 30px;
+    border-bottom: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.skills-word-frame-middle{
+    padding: 30px;
+    /*border-top: 0;*/
+    /*border-bottom: 0;*/
+    background: #c2ed71;
+    /*background: #dfdfdf;*/
+}
+
+.skills-word-frame-bottom {
+    /*display:table;*/
+    padding: 30px;
+    border-top: 0;
+    border-radius: 0 0 20px 20px;
+}
+
+.skills-word-frame-stand {
+    height: 25px;
+    width: 30%;
+    border-top: 0;
+    border-bottom: 0;
+    margin-left: 36%;
+}
+
+.circle-switch{
+    display: block;
+    margin-left: 48%;
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.skills-div img{
+    position:relative;
+    display: inline;
+    width: 60px;
+    height: 60px;
+    /*-webkit-animation: greeting-tools-ani 2s ease-out infinite;*/
+    /*animation: greeting-tools-ani 2s ease-out infinite;*/
+}
+
+@-webkit-keyframes greeting-tools-ani {
+    0% { transform: scale(1) rotate(0deg); }
+    25% { transform: scale(1.1) rotate(7deg); }
+    50% { transform: scale(1) rotate(0deg); }
+    75% { transform: scale(1.1) rotate(-7deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+@keyframes greeting-tools-ani {
+    0% { transform: scale(1) rotate(0deg); }
+    25% { transform: scale(1.1) rotate(7deg); }
+    50% { transform: scale(1) rotate(0deg); }
+    75% { transform: scale(1.1) rotate(-7deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+
+
+/*************** modal ***************/
+
+
+.modal {
+    position: fixed;
+    z-index: 100000000000 !important;
+}
+
+.modal-dialog {
+    /*top: 20%;*/
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-content{
+    padding: 0;
+    margin: 0;
+    /*overflow: auto;*/
+    outline: none;
+    border: 0;
+    border-radius: 0;
+    /*text-decoration: none !important;*/
+}
+
+
+.modal-body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.modal-body .container-fluid{
+    padding: 50px;
+}
+
+
+.close-button-container{
+    width: 100%;
+}
+
+
+.close-button {
+    /*position: absolute;*/
+    top: 12px;
+    right: 12px;
+    font-size: 50px;
+    font-weight: 400;
+    position: relative;
+}
+
+
+/* Visit Website button in modal window */
+
+.visitwebsite-container {
+    display: table;
+    /*padding-top: 30px;*/
+    height: 50px;
+    width: 130px;
+    border-radius: 25px;
+    background-color: #969696;
+    transition: 0.3s;
+}
+
+#visitpdf-container {
+    width: 95px;
+}
+
+.visitwebsite-container a {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing:0.02em;
+    color: white;
+}
+
+.visitwebsite-container a:hover {
+    background-color: #c2ed71;
+    border-radius: 25px;
+}
+
+
+
+/* Modal 1 */
+
+.modal-1-body {
+    background: url(../images/dreamtech_top_1.png) no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 50%;
+}
+
+.modal-1-layer {
+    /*background-color: rgba(0, 242, 244, 0.9);*/
+    background-color: rgba(31, 35, 38, 0.5);
+    /*border-radius: 0 200px 200px 0;*/
+    /*margin-right: 10%;*/
+}
+
+/*.modal-1-layer img{*/
+    /*width: 90%;*/
+/*}*/
+
+@media (max-width: 400px){
+    .modal-1-body{
+        background-position: 0 100px;
+        background-size: 100%;
+    }
+
+    .modal-1-layer img{
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Modal 2 */
+
+.modal-2-body {
+    background: url(../images/app-bg-3.png) no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 80%;
+}
+
+@media (max-width: 400px){
+    .modal-2-body{
+        background-position: right bottom;
+        background-size: 100%;
+    }
+}
+
+
+.modal-2-layer {
+    /*background-color: rgba(0, 242, 244, 0.9);*/
+    background-color: rgba(31, 35, 38, 0.5);
+    border-radius: 0;
+    /*margin-right: 10%;*/
+}
+
+
+/* Modal 3 */
+
+.modal-3-body {
+    background: url(../images/memorymatch_bg_4.png) no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: contain;
+}
+
+.modal-3-layer {
+    background-color: rgba(31, 35, 38, 0.8);
+    width: 100%;
+    /*border-radius: 200px 200px 200px 200px;*/
+    /*margin-right: 20%;*/
+}
+
+@media (max-width: 400px){
+    .modal-3-body{
+        background-position: 40px -30px;
+        background-size: 150%;
+        /*background-position: 100px 500px;*/
+    }
+    /*.modal-3-layer {*/
+        /*margin-right: 5%;*/
+    /*}*/
+}
+
+
+@media (max-width: 800px){
+    .modal-3-body{
+        background-position: left 300px;
+        background-size: 150%;
+        /*background-position: 100px 500px;*/
+    }
+}
+
+
+/*.modal-3-layer .logo{*/
+    /*width: 70%;*/
+    /*height: 70%;*/
+/*}*/
+
+.modal-3-layer .mobile{
+    display: inline-block;
+    width: 30%;
+    max-width: 100px;
+}
+
+.modal-3-layer .tablet{
+    display: inline-block;
+    width: 60%;
+    max-width: 200px;
+}
+
+
+/* Modal 4 */
+
+.modal-4-body {
+    background: url(../images/corporate-bg2.png) no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.modal-4-layer {
+    background-color: rgba(31, 35, 38, 0.5);
+    /*border-radius: 0;*/
+    width: 100%;
+    /*margin-right: 60%;*/
+}
+
+/*.modal-4-layer img{*/
+    /*width: 150%;*/
+    /*!*display: inline-block;*!*/
+/*}*/
+
+@media (max-width: 400px){
+    .modal-4-body{
+        background-position: center 200px;
+        background-size: 300%;
+    }
+    .modal-4-layer{
+        margin-right: 5%;
+    }
+}
