@@ -402,7 +402,7 @@
 
   // $('#my-container').imagesLoaded(myFunction)
   // or
-  // $('img').imagesLoaded(myFunction)
+  // $('imgs').imagesLoaded(myFunction)
 
   // execute a callback when all images have loaded.
   // needed because .load() doesn't work on cached images

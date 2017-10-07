@@ -175,7 +175,7 @@ $(document).ready(function() {
 			var	slides = elem.find('.project-description').data('images').split(',');
 			
 			for (var i = 0; i < slides.length; ++i) {
-				slidesHtml = slidesHtml + '<li><img src='+slides[i]+' alt=""></li>';
+				slidesHtml = slidesHtml + '<li><imgs src='+slides[i]+' alt=""></li>';
 			}
 		}
 		
