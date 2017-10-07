@@ -70,7 +70,9 @@
     color: #fff;
 }
 
-.circle:hover .portfolio-number {
+.circle:hover .portfolio-number,
+.circle:focus .portfolio-number,
+.circle:active .portfolio-number {
     padding-top: 0;
     opacity: 0;
 }
@@ -84,7 +86,9 @@
     /*transition: all .3s ease-in-out;*/
 }
 
-.circle:hover .portfolio-text {
+.circle:hover .portfolio-text,
+.circle:focus .portfolio-text,
+.circle:active .portfolio-text {
     padding-top: 80px;
     opacity: 1;
 }
