@@ -5,7 +5,7 @@ $(document).ready(function(){
         console.log('blink clicked!');
         $('iframe').contents().find(".spotlight")
             .css("left",e.clientX-100).css("top", e.clientY-100)
-            .css("opacity", 0.97);
+            .css("opacity", 0.5);
 
         $('.blink-click').css("opacity", 0);
     });
