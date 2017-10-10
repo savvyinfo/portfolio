@@ -8,6 +8,45 @@
     /*background-color: #e5e5e5;*/
 /*}*/
 
+.whatIDo {
+    background: url("../images/about-bg_1.png") no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    background-attachment: fixed;
+    /*background-size:100% auto;*/
+    overflow: hidden;
+    min-height: 750px;
+    height: 100%;
+    padding-top: 15%;
+    width: 100%;
+}
+
+@media (min-width: 320px){
+    .whatIDo{
+        background-size: 200%;
+    }
+}
+
+@media (min-width: 600px){
+    .whatIDo{
+        background-size: 150%;
+    }
+}
+
+@media (min-width: 800px){
+    .whatIDo{
+        background-size: 120%;
+    }
+}
+
+@media (min-width: 900px){
+    .whatIDo{
+        background-size: contain;
+    }
+}
+
+
+
 /* Portfolio List */
 
 .portfolio-container {
@@ -185,6 +224,7 @@
 .work-word-frame-outer{
     position: relative;
     padding: 20px;
+    background-color: #00f2f4;
 }
 
 .work-word-frame-inner{
@@ -201,6 +241,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.5em;
     font-weight: 600;
+    letter-spacing:0.02em;
     padding-left: 20px;
     padding-top: 20px;
 }
@@ -210,8 +251,9 @@
     position: absolute;
     color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.2em;
-    font-weight: 300;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing:0.02em;
     padding-left: 20px;
     padding-top: 20px;
     /*display: table-cell;*/
@@ -223,39 +265,45 @@
 }
 
 .work-word-pic-uiux{
-    background : url(../images/work-whatido-uiux.png) no-repeat;
+    background : url(../images/work-whatido-uiux.png), linear-gradient(to right, black 0%,white 100%)   no-repeat;
     background-position: center center;
     background-size: 170%;
+    background-blend-mode:darken;
 }
 
 .work-word-pic-app{
-    background : url(../images/work-whatido-app-1.png) no-repeat;
+    background : url(../images/work-whatido-app-1.png), linear-gradient(to right, black 0%,white 100%) no-repeat;
     background-position: right center;
     background-size: 150%;
+    background-blend-mode:darken;
 }
 
 .work-word-pic-navi{
-    background : url(../images/work-whatido-navi-1.png) no-repeat;
+    background : url(../images/work-whatido-navi-1.png), linear-gradient(to right, black 0%,white 100%)  no-repeat;
     background-position: center center;
     background-size: 150%;
+    background-blend-mode:darken;
 }
 
 .work-word-pic-branding{
-    background : url(../images/work-whatido-logo-3.png) no-repeat;
+    background : url(../images/work-whatido-logo-3.png), linear-gradient(to right, black 0%,white 100%)   no-repeat;
     background-position: center -40px;
     background-size: 450%;
+    background-blend-mode:darken;
 }
 
 .work-word-pic-printed{
-    background : url(../images/work-whatido-printed.png) no-repeat;
+    background : url(../images/work-whatido-printed.png), linear-gradient(to right, black 0%,white 100%)  no-repeat;
     background-position: left center;
     background-size: 120%;
+    background-blend-mode:darken;
 }
 
 .work-word-pic-display{
-    background : url(../images/work-whatido-display.png) no-repeat;
+    background : url(../images/work-whatido-display_1.png), linear-gradient(to right, black 0%,white 100%)   no-repeat;
     background-position: center center;
     background-size: 200%;
+    background-blend-mode:darken;
 }
 
 
@@ -308,6 +356,7 @@
 
 .skills-container {
     width: 100%;
+    bottom: 0;
 }
 
 
@@ -318,8 +367,9 @@
 .circle-switch{
     width: 100%;
     display: block;
-    border: 3px solid #dfdfdf;
+    border: 3px solid #ffffff;
     line-height: 60px;
+    background: #c2ed71;
 }
 
 .skills-word-frame-top{
@@ -345,7 +395,7 @@
 }
 
 .skills-word-frame-stand {
-    height: 25px;
+    height: 70px;
     width: 30%;
     border-top: 0;
     border-bottom: 0;

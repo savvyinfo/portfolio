@@ -2,15 +2,10 @@
 /*--------------------
 -----Main Styles------
 ----------------------*/
-body,html{
+body, html{
     height:100%;
+    /*background: #969696;*/
 }
-
-body{
-    /*background:#000;*/
-    background: #ffffff;
-}
-
 
 /*----------------------
 ---Padding and Margin---

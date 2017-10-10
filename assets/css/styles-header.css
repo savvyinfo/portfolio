@@ -170,27 +170,27 @@ iframe	{
 
 /* scroll button */
 
-.scroll-button{
-    position:absolute;
-    bottom:30px;
-    left:50%;
-    margin-left:-35px;
-    /*color:#fff !important;*/
-    padding:20px;
-    font-size:48px;
-    -webkit-animation: moving 2s ease-out infinite;
-    animation: moving 2s ease-out infinite;
-    z-index: 200;
-}
+/*.scroll-button{*/
+    /*position:absolute;*/
+    /*bottom:30px;*/
+    /*left:50%;*/
+    /*margin-left:-35px;*/
+    /*!*color:#fff !important;*!*/
+    /*padding:20px;*/
+    /*font-size:48px;*/
+    /*-webkit-animation: moving 2s ease-out infinite;*/
+    /*animation: moving 2s ease-out infinite;*/
+    /*z-index: 200;*/
+/*}*/
 
-@-webkit-keyframes moving {
-    0% 		{ bottom: 30px; }
-    30% 	{ bottom: 10px; }
-    60% 	{ bottom: 30px; }
-}
+/*@-webkit-keyframes moving {*/
+    /*0% 		{ bottom: 30px; }*/
+    /*30% 	{ bottom: 10px; }*/
+    /*60% 	{ bottom: 30px; }*/
+/*}*/
 
-@keyframes moving {
-    0% 		{ bottom: 30px; }
-    30% 	{ bottom: 10px; }
-    60% 	{ bottom: 30px; }
-}
+/*@keyframes moving {*/
+    /*0% 		{ bottom: 30px; }*/
+    /*30% 	{ bottom: 10px; }*/
+    /*60% 	{ bottom: 30px; }*/
+/*}*/

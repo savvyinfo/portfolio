@@ -5,10 +5,11 @@
 --------------------------*/
 
 #about {
-    background: url("../images/about-bg_3.png") no-repeat;
+    background: url("../images/about-bg_1.png") no-repeat;
+    background-color: #00f2f4;
     background-position: center bottom;
     background-size: contain;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     /*background-size:100% auto;*/
     overflow: hidden;
     min-height: 750px;
@@ -77,6 +78,53 @@
     background-color: #00f2f4;
     transition: 0.3s;
 }
+
+
+/* scroll button */
+
+.scroll-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #c2ed71;
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    margin-left:-30px;
+    padding: 7px 15px 15px 15px;
+    font-size:48px;
+    /*color: #000000;*/
+    -webkit-animation: moving 2s ease-out infinite;
+    animation: moving 2s ease-out infinite;
+    z-index: 200;
+}
+
+.scroll-button:hover,
+.scroll-button:focus {
+    -webkit-animation: none;
+    animation: none;
+    background-color: #969696;
+}
+
+
+
+@-webkit-keyframes moving {
+    0% 		{ bottom: 30px; }
+    30% 	{ bottom: 10px; }
+    60% 	{ bottom: 30px; }
+}
+
+@keyframes moving {
+    0% 		{ bottom: 30px; }
+    30% 	{ bottom: 10px; }
+    60% 	{ bottom: 30px; }
+}
+
+
+
+
+
+
 
 /********** Two Circles **********/
 

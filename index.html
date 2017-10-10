@@ -59,34 +59,47 @@
 	
 		<!--=== PAGE PRELOADER ===-->
 		<div id="page-loader"><span class="page-loader-gif">Loading...</span></div>
-		
-		<!-- ==============================================
-		HEADER
+
+
+        <!-- ==============================================
+		ABOUT
 		=============================================== -->
-		<header id="home">
-            <div class="header-content">
-
-                <div id="about-blink-container"><span class="blink-home" id="about-blink"></span></div>
-                    <iframe src="iframe_searchlight.html" seamless="seamless" scrolling="no" allowfullscreen>
-                        <p>Your browser does not support iframes.</p>
-                    </iframe>
-
-                <a class="scroll-button scrollto" href="#about"><i class="fa fa-angle-down lightblue-font"></i></a>
-
-                <div class="searching-container">
-                    <div class="searching-diagonal">
+        <section id="about" class="padding-top-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
                     </div>
-                    <div class="searching-circle">
-                        <p class="searchingfor midgray-font">
-                            Searching for<br>
-                            a <span class="lime-font">designer</span> and<br>
-                            <span class="lightblue-font">developer</span>?
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-		</header><!--End header -->
+                    <div class="col-md-6 text-center">
+                        <p class="section-heading">Hi, I'm John Koh, <br/> a designer and developer.</p>
+                        <p class="section-body">As I expand 10+ years design experience into software development, I focus on creating exciting moments for users and meeting client expectation well.</p>
+
+                        <!--Two circles pulse-->
+                        <!--<div class="pulse-outer-container">-->
+                            <!--<div class="pulse-container">-->
+                                <!--<div class="pulse-form" id="pulse-1">-->
+                                    <!--<p class="lets">Let's Design.</p>-->
+                                <!--</div>-->
+                                <!--<div class="pulse-form" id="pulse-2">-->
+                                    <!--<p class="lets">Let's Develop.</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                    </div>
+
+                    <div class="col-md-3">
+                    </div>
+
+                    <a class="scroll-button scrollto" href="#portfolio">
+                            <i class="fa fa-angle-down white-font"></i>
+                    </a>
+
+                </div><!--End row-->
+
+            </div><!--End container -->
+
+        </section><!--End About -->
 
 		<!-- ==============================================
 		MAIN NAV
@@ -119,62 +132,26 @@
 			</div><!--End container -->
 		</div><!--End main-nav -->
 
-		<!-- ==============================================
-		ABOUT
-		=============================================== -->
-		<section id="about" class="padding-top-100">
-			<div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                    </div>
-
-					<div class="col-md-6 text-center">
-						<p class="section-heading">Hi, I'm John Koh, <br/> a designer and developer.</p>
-                        <p class="section-body">As I expand 10+ years design experience into software development, I focus on creating exciting moments for users and meeting client expectation well.</p>
-
-                        <!--Two circles pulse-->
-                        <div class="pulse-outer-container">
-                            <div class="pulse-container">
-                                <div class="pulse-form" id="pulse-1">
-                                    <p class="lets">Let's Design.</p>
-                                </div>
-                                <div class="pulse-form" id="pulse-2">
-                                    <p class="lets">Let's Develop.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3">
-                    </div>
-
-				</div><!--End row-->
-
-            </div><!--End container -->
-
-		</section><!--End About -->
-		
 
 		<!-- ==============================================
 		PORTFOLIO
 		=============================================== -->
-		<section id="portfolio" class="padding-top-100 midmidgray-bg">
+		<section id="portfolio" class="midmidgray-bg">
 
             <!--What I do -->
 
-            <div class="container">
+            <div class="container whatIDo">
                 <div class="row">
                     <p class="section-heading text-center white-font">Here are what I do:
                 </div>
 
-                <div class="row">
+                <div class="row" >
                     <div class="col-md-3">
                     </div>
                     <div class="col-md-6 work-div">
                         <div class="work-word-frame-outer margin-top-30">
                             <div class="work-word-frame-inner">
-                                <p id="work-word-lets">Let's design. Let's develop.</p>
+                                <p id="work-word-lets">What I Do:</p>
                                 <p class="work-word-frame-title"></p>
 
                                 <img src="assets/images/work-uiux.png" id="uiux">
@@ -193,19 +170,21 @@
             </div> <!-- End container -->
 
 
+
+
             <!--See my works and Portfolio buttons-->
 
-            <div class="container margin-top-100">
-                <div class="row">
-                    <div class="col-md-2">
-                    </div>
-                    <div class="col-md-8 text-center">
-                        <p class="section-heading white-font">Here are recent works:</p>
-                    </div>
-                    <div class="col-md-2">
-                    </div>
-                </div>
-            </div>
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-md-2">-->
+                    <!--</div>-->
+                    <!--<div class="col-md-8 text-center">-->
+                        <!--<p class="section-heading white-font">Here are recent works:</p>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-2">-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
 
             <div class="container portfolio-container">
                 <div class="row">
@@ -543,12 +522,12 @@
 
 
             <!--Skill set-->
-            <div class="container-fluid midmidgray-bg skills-container">
+            <div class="container skills-container whatIDo">
                 <div class="row">
                     <div class="col-sm-2 col-md-3">
                     </div>
 
-                    <div class="col-sm-8 col-md-6 skills-div margin-top-100">
+                    <div class="col-sm-8 col-md-6 skills-div">
                         <p class="section-heading text-center white-font">Here are skills I have:</p>
                         <div class="skills-word-frame-top">
                         </div>
