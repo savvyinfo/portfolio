@@ -3,15 +3,9 @@
 ---- Portfolio Styles -----
 --------------------------*/
 
-
-/*#portfolio{*/
-    /*background-color: #e5e5e5;*/
-/*}*/
-
 .whatIDo {
     background: url("../images/about-bg_1.png") no-repeat;
     background-position: center bottom;
-    background-size: contain;
     background-attachment: fixed;
     /*background-size:100% auto;*/
     overflow: hidden;
@@ -21,29 +15,29 @@
     width: 100%;
 }
 
-@media (min-width: 320px){
+@media (min-width: 375px){
     .whatIDo{
-        background-size: 200%;
+        background-size: cover;
     }
 }
 
 @media (min-width: 600px){
     .whatIDo{
-        background-size: 150%;
-    }
-}
-
-@media (min-width: 800px){
-    .whatIDo{
-        background-size: 120%;
-    }
-}
-
-@media (min-width: 900px){
-    .whatIDo{
         background-size: contain;
     }
 }
+
+/*@media (min-width: 800px){*/
+    /*.whatIDo{*/
+        /*background-size: 120%;*/
+    /*}*/
+/*}*/
+
+/*@media (min-width: 900px){*/
+    /*.whatIDo{*/
+        /*background-size: contain;*/
+    /*}*/
+/*}*/
 
 
 

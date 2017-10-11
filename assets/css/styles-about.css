@@ -8,7 +8,6 @@
     background: url("../images/about-bg_1.png") no-repeat;
     background-color: #00f2f4;
     background-position: center bottom;
-    background-size: contain;
     background-attachment: fixed;
     /*background-size:100% auto;*/
     overflow: hidden;
@@ -17,29 +16,30 @@
 
 }
 
-@media (min-width: 320px){
+@media (min-width: 375px){
     #about{
-        background-size: 200%;
+        background-size: cover;
     }
 }
+
 
 @media (min-width: 600px){
-    #about{
-        background-size: 150%;
-    }
-}
-
-@media (min-width: 800px){
-    #about{
-        background-size: 120%;
-    }
-}
-
-@media (min-width: 900px){
     #about{
         background-size: contain;
     }
 }
+
+/*@media (min-width: 800px){*/
+    /*#about{*/
+        /*background-size: 120%;*/
+    /*}*/
+/*}*/
+
+/*@media (min-width: 900px){*/
+    /*#about{*/
+        /*background-size: contain;*/
+    /*}*/
+/*}*/
 
 
 
