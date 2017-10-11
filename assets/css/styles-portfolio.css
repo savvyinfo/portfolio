@@ -49,6 +49,7 @@
 
 .portfolio-frame{
     padding: 0;
+    min-height: 200px;
 }
 
 .circle {
@@ -67,16 +68,37 @@
     background-color: #87bd46;
 }
 
+#circle-1-1 {
+    background: url(../images/intro_uiux.png);
+    background-size:cover;
+    background-color: #87bd46;
+    min-height: 200px;
+}
+
 #circle-2 {
     background: url(../images/intro_app.png);
     background-color: #2f81c4;
     background-size: cover;
 }
 
+#circle-2-1 {
+    background: url(../images/intro_app.png);
+    background-color: #2f81c4;
+    background-size: cover;
+    min-height: 200px;
+}
+
 #circle-3 {
     background: url(../images/intro_onlinegame_1.png);
     background-size:cover;
     background-color: #87bd46;
+}
+
+#circle-3-1 {
+    background: url(../images/intro_onlinegame_1.png);
+    background-size:cover;
+    background-color: #87bd46;
+    min-height: 200px;
 }
 
 #circle-4 {
@@ -86,6 +108,14 @@
     background-color: #2f81c4;
 }
 
+#circle-4-1 {
+    background: url(../images/intro_corporate_1.png) no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    background-color: #2f81c4;
+    min-height: 200px;
+}
+
 .circle:hover {
     border-radius:0;
     width: 100%;
@@ -93,22 +123,42 @@
     opacity: 1;
 }
 
-.portfolio-number {
-    position: absolute;
-    opacity: 1;
-    top: 45px;
-    right: 10px;
-    font-weight: 100;
-    font-size: 100px;
+/*.portfolio-number {*/
+    /*position: absolute;*/
+    /*opacity: 1;*/
+    /*top: 45px;*/
+    /*right: 10px;*/
+    /*font-weight: 100;*/
+    /*font-size: 100px;*/
+    /*color: #fff;*/
+/*}*/
+
+/*.circle:hover .portfolio-number,*/
+/*.circle:focus .portfolio-number,*/
+/*.circle:active .portfolio-number {*/
+    /*padding-top: 0;*/
+    /*opacity: 0;*/
+/*}*/
+
+.portfolio-title {
     color: #fff;
+    opacity: 1;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 80px;
+    /*transition: all .3s ease-in-out;*/
 }
 
-.circle:hover .portfolio-number,
-.circle:focus .portfolio-number,
-.circle:active .portfolio-number {
-    padding-top: 0;
-    opacity: 0;
-}
+/*.portfolio-text {*/
+    /*color: #fff;*/
+    /*opacity: 0;*/
+    /*top: 10px;*/
+    /*right: 10px;*/
+    /*text-align: right;*/
+    /*font-weight: 500;*/
+    /*padding-top: 0;*/
+    /*!*transition: all .3s ease-in-out;*!*/
+/*}*/
 
 .portfolio-text {
     color: #fff;
@@ -130,7 +180,7 @@
 
 .seedetails-container {
     display: table;
-    opacity: 0;
+    opacity: 1;
     padding-left: 40%;
 }
 
@@ -157,11 +207,11 @@
     text-decoration: none;
 }
 
-.circle:hover .seedetails-container {
-    opacity: 1;
-    padding-top: 30px;
-    text-decoration: none;
-}
+/*.circle:hover .seedetails-container {*/
+    /*opacity: 1;*/
+    /*padding-top: 30px;*/
+    /*text-decoration: none;*/
+/*}*/
 
 /* See more works button under recent portfolio list */
 
