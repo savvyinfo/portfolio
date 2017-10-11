@@ -179,30 +179,31 @@
 /* See Details Button */
 
 .seedetails-container {
+    position: absolute;
     display: table;
     opacity: 1;
-    padding-left: 40%;
-}
-
-.seedetails-container a {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    padding: 0;
+    left: 50%;
+    margin-left: -40px;
     height: 50px;
     width: 80px;
     border-radius: 25px;
+    background-color: #4E5961;
+}
+
+.seedetails-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
     text-decoration: none;
     font-size: 14px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
     letter-spacing:0.02em;
     color: white;
-    background-color: #4E5961;
     transition: 0.3s;
 }
 
-.seedetails-container a:hover {
+.seedetails-container:hover {
     background-color: #c2ed71;
     text-decoration: none;
 }
