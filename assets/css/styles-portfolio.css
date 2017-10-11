@@ -3,29 +3,7 @@
 ---- Portfolio Styles -----
 --------------------------*/
 
-.whatIDo {
-    background: url("../images/about-bg_1.png") no-repeat;
-    background-position: center bottom;
-    background-attachment: fixed;
-    /*background-size:100% auto;*/
-    overflow: hidden;
-    min-height: 750px;
-    height: 100%;
-    padding-top: 10%;
-    width: 100%;
-}
 
-@media (min-width: 375px){
-    .whatIDo{
-        background-size: cover;
-    }
-}
-
-@media (min-width: 600px){
-    .whatIDo{
-        background-size: contain;
-    }
-}
 
 
 

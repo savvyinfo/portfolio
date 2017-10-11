@@ -4,23 +4,27 @@
 ------------------------*/
 
 
-#home {
-    display: table;
-    height: 100%;
-    width:100%;
-    color:#fff;
-    padding:0;
-    margin-bottom:0;
-}
 
-#home .header-content{
-    position:relative;
-    display:table-cell;
-    text-align:center;
-    vertical-align:middle;
-    height: 100%;
-    width:100%;
-}
+
+
+
+/*#home {*/
+    /*display: table;*/
+    /*height: 100%;*/
+    /*width:100%;*/
+    /*color:#fff;*/
+    /*padding:0;*/
+    /*margin-bottom:0;*/
+/*}*/
+
+/*#home .header-content{*/
+    /*position:relative;*/
+    /*display:table-cell;*/
+    /*text-align:center;*/
+    /*vertical-align:middle;*/
+    /*height: 100%;*/
+    /*width:100%;*/
+/*}*/
 
 iframe	{
     position: absolute;
