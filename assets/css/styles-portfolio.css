@@ -404,9 +404,11 @@
     transition: 0.3s;
 }
 
-#visitpdf-container {
+#visitpdf-container, #visitothers-container {
     width: 95px;
 }
+
+
 
 .visitwebsite-container a {
     display: table-cell;
